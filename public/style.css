@@ -1,0 +1,193 @@
+body{
+    margin: 0px;
+}
+.hero{
+    display: flex;
+}
+.block1 {
+    background-image: url('twitter_PNG9.png');
+    background-repeat: no-repeat;
+    background-color: rgb(8, 208, 243);
+    background-size: 900px;
+    background-position-x: 60px;
+    background-position-y: -80px;
+    height: 510px;
+    width: 700px;
+}
+
+.block2 {
+    /* background-color: rgb(255, 166, 0); */
+    height: 510px;
+    width: 700px;
+}
+.block22 {
+    display: none;
+}
+
+.hero-text{
+    color: white;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+.image{
+    height: 40px;
+    margin: 0100px 100px 0;
+}
+.title{
+    width: 300px;
+    margin-left: 100px;
+}
+.title-sub{
+    width: 300px;
+    margin: 1px 100px;
+}
+
+.inscrir{
+    background-color: #52a2f3;
+    border: solid;
+    margin-top: 12px;
+    padding: 10px;
+    border-radius: 15px;
+    width: 400px;
+    margin-left: 100px;
+    color: white;
+    text-align: center;
+}
+.inscrir-txt{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.connecter{
+    border-color: #52a2f3;
+    border: solid;
+    margin-top: 12px;
+    padding: 10px;
+    border-radius: 15px;
+    width: 400px;
+    margin-left: 100px;
+    color: #52a2f3;
+    text-align: center;
+}
+
+.connecter-txt{
+    font-weight: bold;
+    color: #52a2f3;
+    text-decoration: none;
+}
+
+/* .footer{
+    color: #a8afaf;
+    height: 90px;
+}
+
+ul{
+    display: inline-flex;
+    list-style: none;
+}
+li{
+    margin: 2px 12px;
+} */
+
+.nav {
+    padding: 0 15px;
+    text-align: center;
+  }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .nav li {
+    display:inline;
+  }
+  
+  li a {
+    display: inline-block;
+    color: rgb(116, 104, 104);
+    text-align: center;
+    padding: 7px 10px;
+    text-decoration: none;
+  }
+
+
+  @media only screen and (max-width: 654px)
+  {
+    .hero{
+        display: block;
+    }
+    .title {
+        width: 125%;
+        margin-left: 100px;
+    }
+    .block22 {
+        display: block;
+    }
+    .block1 {
+        height: 400px;
+    }
+    .hero-text{
+        color: white;
+        margin-top: 20px;
+        margin-left: 150px;
+        padding-top: 6px;
+        font-size: 25px;
+    }
+    .hero-text h3{
+        margin: 50px 0;
+    }
+    
+    .title h1 {
+        font-size: 44px;
+    }
+    .title-sub {
+        font-size: 22px;
+        width: 300%;
+        margin: 1px 100px;
+    }
+   .block22 .connecter {
+        height: 30px;
+        width: 150%;
+    }
+    .connecter-txt {
+        font-size: 20px;
+    }
+    .block22 .inscrir {
+        height: 30px;
+        width: 150%;
+    }
+    .inscrir-txt {
+        font-size: 20px;
+    }
+    .block2 img{
+        display: none;
+    }
+    .block2 .title{
+        display: none;
+    }
+    .block2 .title-sub{
+        display: none;
+    }
+    
+    .block2 {
+        height: 130px;
+        display: flex;
+    }
+    li{
+        font-size: 22px;
+    }
+    nav{
+        width: 200%;
+    }
+    .block2 .inscrir {
+        margin:20px 10px;
+        height: 50px;
+    }
+    .block2 .connecter {
+        margin:20px 10px;
+        height: 50px;
+    }
+  }
